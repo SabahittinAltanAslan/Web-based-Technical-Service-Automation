@@ -1,0 +1,23 @@
+﻿@model TknkService.Models.Cihaz
+@{
+    ViewData["Title"] = "CihazGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("CihazGuncelle", "Cihazlar", FormMethod.Post))
+{
+    <div>Cihaz ID</div>
+    @Html.TextBoxFor(x=>x.cihazID,new {@class ="form-control"})
+    <br />
+    <div>Cihaz Adı</div>
+    @Html.TextBoxFor(x=>x.cihazAd,new {@class ="form-control"})
+    <br />
+    <div>Cihaz Acıklama</div>
+    @Html.TextBoxFor(x=>x.aciklama,new {@class ="form-control"})
+    <br />
+    <div>Cihaz Durum</div>
+    @Html.TextBoxFor(x=>x.cihazDurum,new {@class ="form-control"})
+    <br />
+    <button class="btn btn-primary">Musteri Guncelle</button>
+}

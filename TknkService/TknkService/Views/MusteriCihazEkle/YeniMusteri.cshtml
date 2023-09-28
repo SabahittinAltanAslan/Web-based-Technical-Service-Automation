@@ -1,0 +1,31 @@
+﻿@model Tuple<Cihaz, Musteri >
+@{
+    ViewData["Title"] = "YeniMusteri";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div>Cihaz Adı</div>
+    @Html.TextBoxFor(x=>x.Item1.cihazAd)
+    <br />
+    <div>Cihaz Açıklaması</div>
+    @Html.TextBoxFor(x=>x.Item1.aciklama)
+    <br />
+    <div>Cihaz Durumu</div>
+    @Html.TextBoxFor(x=>x.Item1.cihazDurum)
+    <br />
+    <div>Musteri Adi</div>
+    @Html.TextBoxFor(x=>x.Item2.ad)
+    <br />
+    <div>Musteri Soyadi</div>
+    @Html.TextBoxFor(x=>x.Item2.soyad)
+    <br />
+    <div>Musteri Adresi</div>
+    @Html.TextBoxFor(x=>x.Item2.adres)
+    <br />
+    <div>Telefon Numarasi</div>
+    @Html.TextBoxFor(x=>x.Item2.telefon)
+    <br />
+    <button class="btn btn-outline-primary">Musteri Cihaz Ekle</button>
+</form>
+

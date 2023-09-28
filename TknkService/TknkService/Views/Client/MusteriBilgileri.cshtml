@@ -1,0 +1,35 @@
+﻿@using TknkService.Models
+@model List<Musteri>
+@{
+    ViewData["Title"] = "MusteriBilgileri";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    </br>
+
+    <tr>
+        <th>Musteri ID</th>
+        <th>Musteri Ad </th>
+        <th>Musteri Soyadı</th>
+        <th>Musteri Adresi</th>
+        <th>Musteri Telefon Numarası</th>
+        <th>Musteri Cihazı</th>
+        <th>Musteri Cihaz İd`si</th>
+
+    </tr>
+    @foreach (var x in Model){
+    {
+        <tr>
+            <th>@x.Musteriid</th>
+            <th>@x.ad </th>
+            <th>@x.soyad</th>
+            <th>@x.adres </th>
+            <th>@x.telefon</th>
+            <th>@x.chz.cihazAd</th>
+            <th>@x.chz.cihazID</th>
+        </tr>
+    }
+    }
+</table>
+

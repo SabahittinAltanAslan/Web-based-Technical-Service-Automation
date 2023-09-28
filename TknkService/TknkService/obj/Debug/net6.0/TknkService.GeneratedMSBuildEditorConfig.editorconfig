@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TknkService
+build_property.RootNamespace = TknkService
+build_property.ProjectDir = C:\Users\Legen\OneDrive\Masaüstü\WebDevelopt\BackEND\TknkService\TknkService\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Legen\OneDrive\Masaüstü\WebDevelopt\BackEND\TknkService\TknkService
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Cihazlar/CihazBilgileri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2loYXpsYXJcQ2loYXpCaWxnaWxlcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Cihazlar/CihazGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2loYXpsYXJcQ2loYXpHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Cihazlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2loYXpsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Client/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEhha2tpbWl6ZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Client/MusteriBilgileri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XE11c3RlcmlCaWxnaWxlcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Client/MusteriGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XE11c3RlcmlHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/MusteriCihazEkle/YeniMusteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaUNpaGF6RWtsZVxZZW5pTXVzdGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Legen/OneDrive/Masaüstü/WebDevelopt/BackEND/TknkService/TknkService/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5ca4h0rq1z

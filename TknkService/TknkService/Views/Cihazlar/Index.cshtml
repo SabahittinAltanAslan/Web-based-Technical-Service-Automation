@@ -1,0 +1,32 @@
+﻿@using TknkService.Models;
+@model List<Cihaz>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    </br>
+
+    <tr>
+        <th>Cihaz ID</th>
+        <th>Cihaz Ad </th>
+        <th>Cihaz Bilgileri</th>
+        <th>Cihaz Bilgi Güncelle</th>
+        <th>Cihaz Sil</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <th>@x.cihazID</th>
+            <th>@x.cihazAd </th>
+            <th><a href="/Cihazlar/CihazBilgileri/@x.cihazID" class="btn btn-outline-primary">Bilgiler</a></th>
+            <th><a href="/Cihazlar/CihazGetir/@x.cihazID" class="btn btn-success">Güncelle</a></th>
+            <th><a href="/Cihazlar/CihazSil/@x.cihazID" class="btn btn-danger">Sil</a></th>
+        </tr>
+    }
+</table>
+
+
+

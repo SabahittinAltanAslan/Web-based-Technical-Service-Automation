@@ -1,0 +1,27 @@
+﻿@model TknkService.Models.Musteri
+@{
+    ViewData["Title"] = "MusteriGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@using (Html.BeginForm("MusteriGuncelle", "Client", FormMethod.Post))
+{
+    <div>Musteri ID</div>
+    @Html.TextBoxFor(x=>x.Musteriid,new {@class ="form-control"})
+    <br />
+    <div>Musteri Adı</div>
+    @Html.TextBoxFor(x=>x.ad,new {@class ="form-control"})
+    <br />
+    <div>Musteri Soyadı</div>
+    @Html.TextBoxFor(x=>x.soyad,new {@class ="form-control"})
+    <br />
+    <div>Musteri Adres</div>
+    @Html.TextBoxFor(x=>x.adres,new {@class ="form-control"})
+    <br />
+    <div>Musteri Telefon</div>
+    @Html.TextBoxFor(x=>x.telefon,new {@class ="form-control"})
+    <br />
+    <button class="btn btn-primary">Musteri Guncelle</button>
+}
+
+

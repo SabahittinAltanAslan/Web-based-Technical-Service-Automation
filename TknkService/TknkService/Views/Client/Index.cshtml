@@ -1,0 +1,34 @@
+﻿@using TknkService.Models
+@model List<Musteri>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    </br>
+
+    <tr>
+        <th>Musteri ID</th>
+        <th>Musteri Ad </th>
+        <th>Musteri Bilgileri</th>
+        <th>Musteri Cihazı</th>
+        <th>Musteri Güncelle</th>
+        <th>Musteri Sil</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <th>@x.Musteriid</th>
+            <th>@x.ad </th>        
+            <th><a href="/Client/MusteriBilgileri/@x.Musteriid" class="btn btn-outline-primary">Bilgiler</a></th>
+            <th>@x.chz.cihazAd </th>
+            <th><a href="/Client/MusteriGetir/@x.Musteriid" class="btn btn-success">Güncelle</a></th>
+            <th><a href="/Client/MusteriSil/@x.Musteriid" class="btn btn-danger">Sil</a></th>
+        </tr>
+    }
+</table>
+
+
+
